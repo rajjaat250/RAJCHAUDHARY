@@ -57,7 +57,7 @@ DATABASES = {
         default=os.environ.get('DATABASE_URL')
     )
 }
-}
+
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
